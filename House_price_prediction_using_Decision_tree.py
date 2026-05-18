@@ -11,7 +11,7 @@ st.title("Hyderabad House Price Prediction")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("hyderabad_house_price_dataset.csv")
+    df = pd.read_csv("hyderabad_house_price_dataset_1000.csv")
     return df
 
 df = load_data()
